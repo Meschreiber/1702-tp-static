@@ -3,12 +3,38 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.row{
-	clear: both;
-	width: 100%;
+.main-container{
+  display: block;
+  width: 100%;
+  clear: both;
+	position: fixed;
+	left: 10px;
 }
 
-.photo-container {
+.main-container::before, .main-container::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.row {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.row::before, .row::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.nyc {
+	width: 100vw;
+	height: 85vh;
+}
+
+/*.photo-container {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
@@ -16,7 +42,7 @@ body {
 	background: url(/images/nyc-background.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-}
+}*/
 
 .trip-planner {
 	position: fixed;
@@ -43,6 +69,7 @@ body {
 
 .col-lg-9{
 	background-color: #948e78;
+	padding-left: 0;
 }
 
 .activities {
