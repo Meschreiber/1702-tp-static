@@ -3,6 +3,11 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.row{
+	clear: both;
+	width: 100%;
+}
+
 .photo-container {
 	position: fixed;
 	width: 100vw;
@@ -28,12 +33,39 @@ body {
 }
 
 #map {
-	height: 100vh;
+	height: 80vh;
+}
+
+.col-lg-3{
+	background-color: #948e78;
+	height: 80vh;
+}
+
+.col-lg-9{
+	background-color: #948e78;
 }
 
 .activities {
-	background-color: #948e78;
+	background-color: #f4e9d7;
 	padding: 15px;
 	border-radius: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.panel-heading{
+	background-color: #f4e9d7 !important;
+}
+
+.btn-default{
+	border-radius: 100px !important;
+}
+
+.current-day{
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
 }
 

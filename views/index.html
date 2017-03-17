@@ -9,7 +9,7 @@
           var map;
           function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: 40.705069, lng: -74.009306},   
+              center: {lat: 40.705069, lng: -74.009306},
               zoom: 15
             });
           }
@@ -20,30 +20,30 @@
   <div class='col-lg-3'>
     <div class='activities'>
       <div>
-          <h3>Hotels</h3>
+          <h4>Hotels</h4>
           <select class='form-control'>
             <option value="todo">Andaz Wall Street</option>
-          </select>         
+          </select>
       </div>
       <div>
-          <h3>Restaurants</h3>
+          <h4>Restaurants</h4>
           <select class='form-control'>
             <option value="todo">Bouley</option>
           </select>
       </div>
     <div>
-          <h3>Activities</h3>
+          <h4>Activities</h4>
           <select class='form-control'>
             <option value="todo">South Street Seaport</option>
           </select>
     </div>
     </div> <!-- end of activities -->
 
-    <div class='current-day'> Day 2 </div>
+    <div class='current-day'><h3>Day 2</h3></div>
     <div class='panel panel-default'>
-      <div class='panel-heading'> 
+      <div class='panel-heading'>
         <!--{{daynumber}}-->
-         
+
             <button class='btn btn-default' id='submit'>1</button>
             <button class='btn btn-default' id='submit'>2</button>
             <button class='btn btn-default' id='submit'>3</button>
@@ -51,13 +51,23 @@
       </div> <!-- end of panel-heading -->
       <div class='panel-body'>
         <div>
-          <h3>My Hotel</h3>
+          <h4>My Hotel</h4>
+          <ul>
+            <li>Andaz Wall Street</li>
+          </ul>
       </div>
       <div>
-          <h3>My Restaurants</h3>
+          <h4>My Restaurants</h4>
+          <ul>
+            <li>The Capital Grille</li>
+            <li>Bouley</li>
+          </ul>
       </div>
     <div>
-          <h3>My Activities</h3>
+          <h4>My Activities</h4>
+           <ul>
+            <li>South Seaport</li>
+          </ul>
 
     </div>
   </div> <!-- end of col-lg-3 -->
