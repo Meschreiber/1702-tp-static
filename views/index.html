@@ -1,26 +1,25 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<!--<div class='photo-container'></div>-->
-<!--<div class='row'>
+<div class='row'>
   <img class='nyc' src='/images/nyc-background.jpg'>
-  <center><button class='btn btn-default' id='submit'></button></center>
-</row>-->
+</row>
+<a class='anchor' name="tripplanner"></a>
 <div class='row'>
   <div class='col-lg-9'>
-        <div id="map"></div>
-        <script>
-          var map;
-          function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: 40.705069, lng: -74.009306},
-              zoom: 15
-            });
-          }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO_7fPMUcnNdw4qBc6jsDfqDlZKhZAKyY&callback=initMap"
-        async defer></script>
-</div>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.705069, lng: -74.009306},
+          zoom: 15
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO_7fPMUcnNdw4qBc6jsDfqDlZKhZAKyY&callback=initMap"
+    async defer></script>
+  </div>
   <div class='col-lg-3'>
     <div class='activities'>
       <div>
