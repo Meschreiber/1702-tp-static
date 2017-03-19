@@ -1,136 +1,111 @@
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+  color: #e5d1ba; }
+
 body {
   padding-top: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
-.main-container{
+.main-container {
   display: block;
   width: 99%;
   clear: both;
-	position: relative;
-}
+  position: relative; }
 
 .main-container::before, .main-container::after {
-    clear: both;
-    content: '';
-    display: block;
-}
+  clear: both;
+  content: '';
+  display: block; }
 
 a.anchor {
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
-}
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden; }
 
 .row {
   display: block;
   width: 100vw;
   clear: both;
-	margin: 0 auto;
-	overflow: hidden;
-	background-color: #948e78;
-	background-image: -moz-linear-gradient(
-		left,
-		#eee,
-		#eee 25%,
-		#ccc 25%,
-		#ccc 75%,
-		#eee 75%,
-		#eee 100%
-	);
-}
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #948e78;
+  background-image: -moz-linear-gradient(left, #eee, #eee 25%, #ccc 25%, #ccc 75%, #eee 75%, #eee 100%); }
 
 .row::before, .row::after {
-    clear: both;
-    content: '';
-    display: block;
-}
+  clear: both;
+  content: '';
+  display: block; }
 
 .nyc {
-	width: 100vw;
-	height: 95vh;
-	padding-bottom: 6px;
-	background-color: black;
-}
+  width: 100vw;
+  height: 95vh;
+  padding-bottom: 6px;
+  background-color: black; }
 
 .photo-container {
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
-	left: 0;
-	background: url(/images/nyc-background.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  background: url(/images/nyc-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .trip-planner {
-	position: fixed;
-	clear: both;
-}
+  position: fixed;
+  clear: both; }
 
 #footer {
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-	 font: 14px;
-	 background-color: black;
-}
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  font: 14px;
+  background-color: black; }
 
 #map {
-	height: 85vh;
-	min-height: 650px
-}
+  height: 85vh;
+  min-height: 650px; }
 
-.col-lg-3{
-	background-color: #948e78;
-	padding-left: 7px;
-	padding-right: 35px;
-}
+.col-lg-3 {
+  background-color: #948e78;
+  padding-left: 7px;
+  padding-right: 35px; }
 
-.col-lg-9{
-	background-color: #948e78;
-	padding-left: 0;
-	padding-right: 7px;
-}
+.col-lg-9 {
+  background-color: #948e78;
+  padding-left: 0;
+  padding-right: 7px; }
 
 .activities {
-	background-color: #f4e9d7;
-	padding: 15px;
-	border-radius: 10px;
-	margin: 0 auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	max-width: 350px;
-}
+  background-color: #f4e9d7;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 350px; }
 
-.current-day{
-	text-align: center;
-	max-width: 350px;
-	margin: 0 auto;
-}
+.current-day {
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto; }
 
 .panel {
-	max-width: 350px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-}
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 50px; }
 
-.panel-heading{
-	background-color: #f4e9d7 !important;
-}
+.panel-heading {
+  background-color: #f4e9d7 !important; }
 
-.btn-default{
-	border-radius: 100px !important;
-}
+.btn-default {
+  border-radius: 100px !important; }
 
-ul{
-	list-style-type: none;
-}
+ul {
+  list-style-type: none; }
 
-.form-control{
-	height: 22px;
-}
+.form-control {
+  height: 22px; }

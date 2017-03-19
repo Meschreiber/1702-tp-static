@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "",
-    "build:css": "node-sass -w -r assets/stylesheets -o public/stylesheets"
+    "build": "node-sass -w -r assets/stylesheets -o public/stylesheets"
   },
   "keywords": [
     "fun",
